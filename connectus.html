@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contact Us</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            background-color: whitesmoke;
+            border-radius: 5px;
+            margin: 50px auto;
+            width: 60%;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2vw;
+        }
+
+        .items {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 1vw;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            border: solid black;
+            border-radius: 5px;
+            font-size: 1vw;
+            padding: 2%;
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            background-color: darkblue;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            padding: 2%;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background-color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form>
+            <div class="items">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="items">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="items">
+                <label for="Contactno">Contact No:</label>
+                <input type="tel" id="contactno" name="contactno" required>
+            </div>
+
+            <div class="items">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <div class="items">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
