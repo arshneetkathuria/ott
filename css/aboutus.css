@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header {
+    background-color: #E50914;
+    color: #FFF;
+    text-align: center;
+    padding: 2% 0;
+  } */
+
+main {
+    padding: 2%;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.about-us {
+    padding: 2%;
+}
+
+h1 {
+    font-size: 3em;
+    color: #E50914;
+}
+
+p {
+    font-size: 1.2em;
+    color: #221F1F;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #221F1F;
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .container {
+        max-width: 95%;
+    }
+}
