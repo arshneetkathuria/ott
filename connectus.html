@@ -5,11 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Connect Us</title>
     <link rel="stylesheet" href="css/connectus.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <header>
-        <h1>Connect with us</h1>
-    </header>
+        <nav class="navbar">
+          <div class="logo">
+            <img src="netflix_logo.png" alt="">
+          </div>
+          <ul class="menu login-stretch">
+            <ul class="menu">
+              <li class="menu-list-item"><a href="#">Home</a></li>
+              <li class="menu-list-item"><a href="#">TV Shows</a></li>
+              <li class="menu-list-item"><a href="#">Movies</a></li>
+              <li class="menu-list-item"><a href="#">My List</a></li>
+            </ul>
+            <ul>
+              <li>
+                <div class="container">
+                  <div class="search-box">
+                    <input type="text" class="search-box-input" placeholder="What are you looking for ?">
+                    <button class="search-box-btn">
+                      <i class="search-box-icon material-icons">search</i>
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <!-- <a href="#">Login</a> -->
+                <div class="user-icon">
+                  <div class="user-icon-circle">
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <div class="dropdown-sub-menu"><i class="fa-solid fa-pencil"></i>
+                            <p>Manage Profile</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="dropdown-sub-menu"><i class="fa-regular fa-circle-question"></i>
+                            <p>Help Center</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="dropdown-sub-menu"><i class="fa-sharp fa-solid fa-gear"></i>
+                            <p>Settings</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="dropdown-sub-menu"><i class="fa-regular fa-user"></i>
+                            <p>Account</p>
+                          </div>
+                        </a>
+                      </li>
+                     <hr>
+                     <li><p>Sign out</p></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+    
+          </ul>
+        </nav>
+      </header>
 
     <main>
         <div class="contact-form">
@@ -43,7 +113,43 @@
     </main>
 
     <footer>
-        <p>&copy; 2023 Your Company. All rights reserved.</p>
-    </footer>
+        <div class="footer-master">
+          <div class="footer-tags">
+            <div class="footer-content">
+              <ul>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Feedback</a></li>
+              </ul>
+            </div>
+            <div class="footer-content">
+              <ul>
+                <li><a href="connectus.html">Contact Us</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-content">
+            <ul>
+              <li>About</li>
+              <li>
+                <p>Netflix offers original, exclusive and premium stories. Everything you want to watch, anytime, anywhere
+                  and as much.</p>
+              </li>
+              <li>
+                <div class="social-icons">
+                  <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        <div class="footer-disclaimer">
+          <p>&copy; 2023 Netflix, Inc. All rights reserved.</p>
+        </div>
+      </footer>
 </body>
 </html>
