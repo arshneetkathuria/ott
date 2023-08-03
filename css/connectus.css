@@ -1,0 +1,90 @@
+/* Reset some default styles to have a clean slate */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fluid layout using relative units */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  max-width: 100%;
+}
+
+header, main, footer {
+  padding: 1vw;
+}
+
+header {
+  background-color: #E50914;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5vw;
+}
+
+main {
+  background-image: url(/img/contactus.jpg);
+}
+
+.contact-form {
+  margin: 2.5vw auto;
+  max-width: 40vw;
+}
+
+.form-group {
+  margin-bottom: 1.5vw;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 1.5vw;
+  border: 0.15vw solid #ccc;
+  border-radius: 1vw;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 1.5vw 2.5vw;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 1vw;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #221F1F;
+  color: #fff;
+  text-align: center;
+  padding: 1vw 0;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+  header h1 {
+      font-size: 5vw;
+  }
+
+  main, footer {
+      padding: 1vw;
+  }
+
+  .contact-form {
+      max-width: 90vw;
+  }
+
+  form {
+      max-width: 100%;
+  }
+}
