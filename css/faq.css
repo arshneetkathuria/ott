@@ -1,0 +1,159 @@
+.help_center_outer_div {
+  background-color: #151515;
+}
+.help_center_wrapper {
+  padding-top: 12%;
+  min-height: 100vh;
+  text-align: center;
+  margin-left: 18.75%;
+  margin-right: 18.75%;
+  padding-bottom: 20px;
+  color: #fff;
+}
+.help_center_wrapper .content_section {
+  display: -webkit-box;
+}
+.ul-outer-div-web {
+  width: 37.9%;
+}
+.help-center-leftlist-contents-wrapper {
+  list-style: none;
+  margin-block-start: 0;
+  margin-inline-start: 0;
+  padding-inline-start: 0;
+  padding-block-start: 0;
+}
+
+.help-center-leftlist-contents-wrapper .help-center-query-title {
+    text-align: left;
+    background-color: #151515;
+    font-size: 14px;
+    opacity: 0.5;
+    box-sizing: content-box;
+}
+.help-center-leftlist-contents-wrapper .help-center-query-title .help-center-query-title-display {
+  letter-spacing: 0.07em;
+  padding: 1.5em 1em;
+  width: 88%;
+  border-bottom: 1px solid #212121;
+  display: flex;
+}
+.help-center-leftlist-contents-wrapper .help-center-query-title .query-title {
+  display: block;
+  padding-top: 3px;
+}
+.help-center-leftlist-contents-wrapper .help-center-query-title .show-hide-content-icon {
+  padding-right: 10px;
+  align-self: flex-start;
+}
+.help-center-leftlist-contents-wrapper:hover{
+  cursor: pointer;
+}
+.help-center-leftlist-contents-wrapper .active {
+  background-color: #333333 !important;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  opacity: 1 !important;
+  width: 100%;
+  padding-right: 10%;
+}
+.faq-button {
+  width: 90.1%;
+  height: 50px;
+  margin: 14% 0;
+  border-radius: 8px;
+  border: solid 1px #333333;
+  background-color: transparent;
+  display: block;
+  cursor: pointer;
+  margin-right: 25%;
+}
+.button-wrapper {
+  display: flex;
+  align-items: center;
+}
+.button-wrapper .span-wrapper {
+  width: 90%;
+  text-align: left;
+  padding-left: 8px;
+}
+.faq-button .faq-text {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+.faq-button .pull-right-div {
+  width: 10%;
+  opacity: 0.6;
+}
+.faq-button .right-arrow-icon {
+  vertical-align: middle;
+}
+.help-center-rightlist-contents-wrapper {
+  width: 62.1%;
+  list-style: none;
+  margin-block-start: 0;
+  margin-inline-start: 0;
+  padding-inline-start: 0;
+  padding-block-start: 0;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #333333;
+  padding-bottom: 31px;
+}
+.help-center-rightlist-contents-wrapper .selectQueryText {
+  text-align: left;
+  font-size: 16px;
+  margin: 23px 5.7% 20px 16px;
+}
+.help-center-rightlist-contents-wrapper .help-center-query .help-center-query-display {
+  padding: 16px 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.help-center-rightlist-contents-wrapper .help-center-query .query-title-wrapper {
+  width: 90%;
+  text-align: left;
+}
+
+.help-center-rightlist-contents-wrapper .help-center-query .query-title {
+  line-height: 1.31;
+}
+.help-center-rightlist-contents-wrapper .help-center-query .query-title-wrapper {
+  width: 90%;
+  text-align: left;
+}
+.help-center-rightlist-contents-wrapper .help-center-query .help-center-query-display {
+  padding: 16px 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.help-center-rightlist-contents-wrapper .help-center-query .help-center-query-display {
+  padding: 16px 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.help-center-rightlist-contents-wrapper .help-center-query {
+  font-family: SFProText-Regular;
+  background-color: rgba(0,0,0,0.15);
+  font-size: 14px;
+  margin: 10px 5.7%;
+  border-radius: 7px;
+  letter-spacing: 0.2px;
+  color: #aaaaaa;
+}
+@media screen and (max-width: 1024px) {
+  .help_center_wrapper {
+    padding-top: 13.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media screen and (min-width: 1024px){
+.help_center_wrapper {
+    min-width: 840px;
+}
+}
+

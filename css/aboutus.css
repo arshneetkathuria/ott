@@ -1,77 +1,281 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+.home .eJRFED {
+    padding-top: 0px;
+}
+body{
+    margin:0;
+    background-color: #141414;
 }
 
-/* header {
-    background-color: #E50914;
-    color: #FFF;
-    text-align: center;
-    padding: 2% 0;
-  } */
-
-main {
-    padding: 2%;
-}
-
-.container {
-    max-width: 80%;
-    margin: 0 auto;
-}
-
-.about-us {
-    padding: 2%;
-}
-
-h1 {
-    font-size: 3em;
-    color: #E50914;
-}
-
-p {
-    font-size: 1.2em;
-    color: #221F1F;
-}
-
-.footer {
-    position: fixed;
-    bottom: 0;
+.eJRFED {
+    position: relative;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    background-color: #221F1F;
+    min-height: 100vh;
+    padding: 80px 0px 0px;
+    visibility: visible;
+}
+.herostyles__MediaWrapper video{
+    width:100%;
+}
+
+.kPbWzb {
+    position: absolute;
+    top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+    font-family: var(--medium-font);
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px auto;
+    max-width: 900px;
+    text-align: center;
+    padding: 0px 52px;
+    line-height: 1.4;
+    letter-spacing: -0.3px;
+    z-index: 1000000;
+    color: white;
+}
+.kPbWzb span {
+    display: block;
+}
+
+.about-showbox
+{
+    margin-top:5% !important;
+    color: white;
+    width:50%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+}
+.grWKUB {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+}
+.gUPITN {
+    position: relative;
+    width: 100%;
+    max-width: 336px;
+    padding: 24px;
+    z-index: 10;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin: 0px auto;
+    bottom: -24px;
+}
+.bmymIw {
+    font-family: var(--medium-font);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.33;
+    letter-spacing: -0.6px;
+    margin: 0px;
+}
+.cJCEBD {
+    font-family: var(--light-font);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+    margin: 8px 0px;
+}
+.fmiCvz {
+    font-family: var(--bold-font);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+    color: rgb(229, 9, 20);
+    text-decoration: none;
+    margin: 0px;
+}
+.cGrGmh {
+    color: inherit;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+
+.bZzUsA {
+    width: 80%;
+    position: relative;
+    align-self: center;
+    background-image: url(https://images.ctfassets.net/4cd45et68cgf/1Qg13BHGfuXpFVpSaUIwuS/2fc9fa4cfb17f5e8dda950a8bc902510/Web-7577.jpg?w=2300);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 375px;
+    margin: 0px auto;
+}
+.hrwgXh {
+    padding: 0px 20px;
+    position: relative;
+    margin: 50px 0px;
+    color: white;
+}
+.lFkld {
+    margin: 60px 0px 48px;
+    display: grid;
+    gap: 40px;
+    grid-template-rows: 1fr 1fr;
+}
+.jfeIIM {
+    margin: 0px auto;
+}
+.jziZeF {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 32px;
+}
+.egQJkW {
+    width: 100%;
+}
+.gvwzSl {
+    font-family: var(--bold-font);
+    font-weight: 700;
+    font-size: 30px;
+    margin: 6px 0px 12px;
+}
+.iqHMbr {
+    margin: 6px 0px 20px;
+    line-height: 1.5;
+    letter-spacing: -0.16px;
+}
+
+.gewijh a {
+    text-decoration: none;
+    font-family: var(--bold-font);
+    font-weight: 700;
+    color: rgb(255, 0, 13);
+}
+.egQJkW {
+    width: 100%;
+}
+.aVORC {
+    margin: 0px auto;
+}
+.jziZeF {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 32px;
+}
+.CINzm {
+    position: relative;
+    margin: 0px calc(50% - 50vw);
+    height: 319px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-image: url(https://about.Netflix.com/images/backgrounds/background-texture-s.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 0px 42px;
+}
+.fEEJmt {
     color: white;
     text-align: center;
+    font-family: var(--medium-font);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.25;
+    letter-spacing: -0.4px;
+    margin: 0px 0px 40px;
+}
+.jkWBZ {
+    display: block;
+    font-family: var(--bold-font);
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.2px;
+}
+.jkWBZ a {
+    display: block;
+    padding: 15px 20px;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(229, 9, 20);
 }
 
-.footer p {
-    color: white;
+
+@media screen and  (min-width: 768px){
+.egQJkW {
+    width: 479px;
+    height: 320px;
+    object-fit: cover;
+}
+.gvwzSl {
+    line-height: 1.4;
+    letter-spacing: -0.3px;
+    margin: 0px 0px 16px;
+    font-size: 40px;
+}
+.iqHMbr {
+    line-height: 1.4;
+    letter-spacing: -0.3px;
+    margin: 0px 0px 16px;
+    font-size: 20px;
+    max-width: 481px;
+}
+.gewijh a {
+    transition: all 200ms ease 0s;
+    font-size: 20px;
+}
+.egQJkW {
+    width: 479px;
+    height: 320px;
+    object-fit: cover;
+}
+.CINzm {
+    height: 466px;
+}
+.fEEJmt {
+    font-size: 60px;
+    margin: 0px 0px 40px;
+}
+.jkWBZ {
+    font-size: 30px;
+    letter-spacing: -0.3px;
+}
 }
 
-/* Media Queries for responsiveness */
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 2.5em;
-    }
 
-    p {
-        font-size: 1em;
-    }
 
-    .container {
-        max-width: 90%;
-    }
+@media screen and (min-width: 1024px){
+.jfeIIM {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1040px;
+    margin-right: auto;
+}
+.aVORC {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1040px;
+    margin-left: auto;
 }
 
-@media screen and (max-width: 480px) {
-    h1 {
-        font-size: 2em;
-    }
+.jziZeF {
+    margin: 0px;
+}
 
-    p {
-        font-size: 1em;
-    }
-
-    .container {
-        max-width: 95%;
-    }
 }

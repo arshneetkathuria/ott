@@ -5,11 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>movies</title>
     <link rel="stylesheet" href="./css/movies.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+          <div class="logo">
+            <img src="ShowBox_logo.png" alt="ShowBox Logo">
+          </div>
+          <ul class="menu login-stretch">
+            <ul class="menu">
+    
+              <li class="menu-list-item"><a href="index.html">Home</a></li>
+              <li class="menu-list-item"><a href="#">TV Shows</a></li>
+              <li class="menu-list-item"><a href="#">Movies</a></li>
+              <li class="menu-list-item"><a href="#">My List</a></li>
+            </ul>
+            <ul>
+              <li>
+                <div class="container">
+                  <div class="search-box">
+                    <input type="text" class="search-box-input" placeholder="What are you looking for ?">
+                    <button class="search-box-btn">
+                      <i class="search-box-icon material-icons">search</i>
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <!-- <a href="#">Login</a> -->
+                <div class="user-icon">
+                  <div class="user-icon-circle">
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <div class="dropdown-sub-menu"><i class="fa-solid fa-pencil"></i>
+                            <p>Manage Profile</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="dropdown-sub-menu"><i class="fa-regular fa-circle-question"></i>
+                            <p>Help Center</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="dropdown-sub-menu"><i class="fa-sharp fa-solid fa-gear"></i>
+                            <p>Settings</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="dropdown-sub-menu"><i class="fa-regular fa-user"></i>
+                            <p>Account</p>
+                          </div>
+                        </a>
+                      </li>
+                      <hr>
+                      <li>
+                        <p>Sign out</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+    
+          </ul>
+        </nav>
+      </header>
     <section>
         <div class="videoplayer">
-            <video src="https://res.cloudinary.com/ddjubaayd/video/upload/v1690566569/video/Sacred_Games___Teaser_HD___Netflix_qaviid.mp4" controls muted></video>
+            <video src="https://res.cloudinary.com/ddjubaayd/video/upload/v1690566569/video/Sacred_Games___Teaser_HD___Netflix_qaviid.mp4" controls muted autoplay></video>
         </div>
 
     </section>
@@ -36,6 +111,487 @@
             </tbody>
         </table>
     </section>
+    <div class="homepage">
+        <!-- Category: Popular Now -->
+        <div class="category">
+          <h2 class="category-headlines">More Like This</h2>
+          <div class="thumbnails">
+            <!-- Placeholder for TV Show 1 -->
+            <div class="thumbnail">
+              <img
+                src="https://images.news18.com/ibnlive/uploads/2023/03/surveen-chawla-sacred-games-3-.jpg?im=FitAndFill=(1200,675)"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+  
+                  <a href="movies1.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 2 -->
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-1065-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABc3QCNarSwaus8nr27zi-2KyeLJgHh7rhn80oMc-TAJgOxT26KThPPd_ylypmq7WF0izZ4GxPYPXaT6sM63c5U9QFFxN4NmhlEI.webp?r=286"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies2.html" class="videoplayer2"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 3 -->
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-1065-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbmLx1h8v0Yu6DTpCAOzVYEgebloSO5iFWQA9eqTX1S-TGQepGZVkjMt1WdtPa1WtTXGbegHXe5oHEcTDdt7W6pwGMgtYTlQMHE.webp?r=132"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies3.html" class="videoplayer2"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 4 -->
+  
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-1065-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdIEQ3OpMy_D4a-Yzpt_UeFghBFeFUfdt3moTNWgtRlGrIeOwP2Yq4p7MBgcinPi4Cxs9G6GE3E8PvQX9gfs16gH9Ro6ziAkAqU.webp?r=3da"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies4.html" class="videoplayer2"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 5 -->
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-7328-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWEFnho0XhKUg6P3qc0gG4Vw5-Vasq8tlk8v2pp5jP45zNpUcRxpJsvmu-CBVjYgqrEwfNYmBKBLUVE2ZjUwOS8yBW1H9kHtscg.webp?r=b2a"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies5.html" class="videoplayer2"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 6 -->
+            <div class="thumbnail">
+              <img
+                src="https://images.news18.com/ibnlive/uploads/2023/03/surveen-chawla-sacred-games-3-.jpg?im=FitAndFill=(1200,675)"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies1.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 7 -->
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-1065-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABc3QCNarSwaus8nr27zi-2KyeLJgHh7rhn80oMc-TAJgOxT26KThPPd_ylypmq7WF0izZ4GxPYPXaT6sM63c5U9QFFxN4NmhlEI.webp?r=286"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies2.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 8 -->
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-1065-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbmLx1h8v0Yu6DTpCAOzVYEgebloSO5iFWQA9eqTX1S-TGQepGZVkjMt1WdtPa1WtTXGbegHXe5oHEcTDdt7W6pwGMgtYTlQMHE.webp?r=132"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies3.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 9 -->
+  
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-1065-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdIEQ3OpMy_D4a-Yzpt_UeFghBFeFUfdt3moTNWgtRlGrIeOwP2Yq4p7MBgcinPi4Cxs9G6GE3E8PvQX9gfs16gH9Ro6ziAkAqU.webp?r=3da"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies4.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 10 -->
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-7328-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWEFnho0XhKUg6P3qc0gG4Vw5-Vasq8tlk8v2pp5jP45zNpUcRxpJsvmu-CBVjYgqrEwfNYmBKBLUVE2ZjUwOS8yBW1H9kHtscg.webp?r=b2a"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies5.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Add more thumbnails for Popular Now category -->
+          </div>
+        </div>
+        <!-- Category: Trending -->
+        <div class="category">
+          <h2 class="category-headlines">Trending</h2>
+          <div class="thumbnails">
+            <!-- Placeholder for TV Show 1 -->
+            <div class="thumbnail">
+              <img
+                src="https://images.news18.com/ibnlive/uploads/2023/03/surveen-chawla-sacred-games-3-.jpg?im=FitAndFill=(1200,675)"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies1.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 2 -->
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-1065-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABc3QCNarSwaus8nr27zi-2KyeLJgHh7rhn80oMc-TAJgOxT26KThPPd_ylypmq7WF0izZ4GxPYPXaT6sM63c5U9QFFxN4NmhlEI.webp?r=286"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies2.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 3 -->
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-1065-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbmLx1h8v0Yu6DTpCAOzVYEgebloSO5iFWQA9eqTX1S-TGQepGZVkjMt1WdtPa1WtTXGbegHXe5oHEcTDdt7W6pwGMgtYTlQMHE.webp?r=132"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies3.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 4 -->
+  
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-1065-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdIEQ3OpMy_D4a-Yzpt_UeFghBFeFUfdt3moTNWgtRlGrIeOwP2Yq4p7MBgcinPi4Cxs9G6GE3E8PvQX9gfs16gH9Ro6ziAkAqU.webp?r=3da"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies4.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 5 -->
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-7328-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWEFnho0XhKUg6P3qc0gG4Vw5-Vasq8tlk8v2pp5jP45zNpUcRxpJsvmu-CBVjYgqrEwfNYmBKBLUVE2ZjUwOS8yBW1H9kHtscg.webp?r=b2a"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies5.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 6 -->
+            <div class="thumbnail">
+              <img
+                src="https://images.news18.com/ibnlive/uploads/2023/03/surveen-chawla-sacred-games-3-.jpg?im=FitAndFill=(1200,675)"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies1.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 7 -->
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-1065-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABc3QCNarSwaus8nr27zi-2KyeLJgHh7rhn80oMc-TAJgOxT26KThPPd_ylypmq7WF0izZ4GxPYPXaT6sM63c5U9QFFxN4NmhlEI.webp?r=286"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies2.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 8 -->
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-1065-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbmLx1h8v0Yu6DTpCAOzVYEgebloSO5iFWQA9eqTX1S-TGQepGZVkjMt1WdtPa1WtTXGbegHXe5oHEcTDdt7W6pwGMgtYTlQMHE.webp?r=132"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies3.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 9 -->
+  
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-1065-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdIEQ3OpMy_D4a-Yzpt_UeFghBFeFUfdt3moTNWgtRlGrIeOwP2Yq4p7MBgcinPi4Cxs9G6GE3E8PvQX9gfs16gH9Ro6ziAkAqU.webp?r=3da"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies4.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Placeholder for TV Show 10 -->
+            <div class="thumbnail">
+              <img
+                src="https://occ-0-7328-1722.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWEFnho0XhKUg6P3qc0gG4Vw5-Vasq8tlk8v2pp5jP45zNpUcRxpJsvmu-CBVjYgqrEwfNYmBKBLUVE2ZjUwOS8yBW1H9kHtscg.webp?r=b2a"
+                alt="Movie 1">
+              <div class="button-container">
+                <div class="interactive-btn">
+                  <a href="movies5.html" class="videoplayer1"><button class="play-button"><i
+                        class="fas fa-play"></i></button></a>
+                  <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+                </div>
+                <p>1h 42m</p>
+              </div>
+              <div class="tags-container">
+                <ul>
+                  <li>Historical</li>
+                  <li>Thriller</li>
+                  <li>Ominous</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Add more thumbnails for Popular Now category -->
+          </div>
+        </div>
+   
+      </div>
+      <footer>
+        <div class="footer-master">
+          <div class="footer-tags">
+            <div class="footer-content">
+              <ul>
+                <li><a href="./aboutus.html">About</a></li>
+                <li><a href="./privacypolicy.html">Privacy</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="footer-content">
+              <ul>
+                <li><a href="./contactus.html">Contact Us</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-content">
+            <ul>
+              <li>About</li>
+              <li>
+                <p>ShowBox offers original, exclusive and premium stories. Everything you want to watch, anytime, anywhere
+                  and as much.</p>
+              </li>
+              <li>
+                <div class="social-icons">
+                  <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        <div class="footer-disclaimer">
+          <p>&copy; 2023 ShowBox, Inc. All rights reserved.</p>
+        </div>
+      </footer>
 
 </body>
 </html>
