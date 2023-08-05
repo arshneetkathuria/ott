@@ -5,8 +5,7 @@ body{
   background-color: #151515;
 }
 .help_center_wrapper {
-  padding-top: 12%;
-  min-height: 100vh;
+  padding-top: 13.5%;
   text-align: center;
   margin-left: 18.75%;
   margin-right: 18.75%;
@@ -147,9 +146,23 @@ body{
   letter-spacing: 0.2px;
   color: #aaaaaa;
 }
+
+@media screen and (max-width:767px)
+{
+.ul-outer-div-web
+{
+  visibility: collapse;
+  width: 0;
+}
+.help-center-rightlist-contents-wrapper{
+  width:100%;
+  height:fit-content;
+  border-radius: 10px;
+  margin-top: 25%;
+}
+}
 @media screen and (max-width: 1024px) {
   .help_center_wrapper {
-    padding-top: 13.5%;
     margin-left: 10%;
     margin-right: 10%;
   }

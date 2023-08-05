@@ -6,44 +6,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About-ShowBox</title>
     <link rel="icon" type="image/x-icon" href="../img/showboxfin.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../css/aboutus.css">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/general.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
     <header>
+        <nav class="navbar">
 
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="../img/showboxlogo.png">
+                </a>
+            </div>
+            <ul class="menu login-stretch">
+                <ul class="menu">
+                    <li class="menu-list-item"><a href="./index.html">Home</a></li>
+                    <li class="menu-list-item"><a href="#">TV Shows</a></li>
+                    <li class="menu-list-item"><a href="#">Movies</a></li>
+                    <li class="menu-list-item"><a href="#">My List</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="search-box">
+                            <input class="search-input" type="text" name="" placeholder="Pesquise">
+                            <a href="#" class="search-btn">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <!-- <a href="#">Login</a> -->
+                        <div class="user-icon">
+                            <div class="user-icon-circle">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="dropdown">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <div class="dropdown-sub-menu"><i class="fa-solid fa-pencil"></i>
+                                                <p>Manage Profile</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="dropdown-sub-menu"><i class="fa-regular fa-circle-question"></i>
+                                                <p>Help Center</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="dropdown-sub-menu"><i class="fa-sharp fa-solid fa-gear"></i>
+                                                <p>Settings</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="dropdown-sub-menu"><i class="fa-regular fa-user"></i>
+                                                <p>Account</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <p>Sign out</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </ul>
+        </nav>
     </header>
     <div>
         <div class="eJRFED">
-            <div class="LnXsa">
-                <main id="main-content">
-                    <div class="herostyles__Wrapper">
-                        <div class="herostyles__MediaWrapper">
-                            <video autoplay="" muted="" loop="" playsinline=""
-                                poster="//images.ctfassets.net/4cd45et68cgf/7vHGD7Uco3vCrkcODgl93A/6d8c350a705f7b072d9060c16bd19240/ShowBox-home_hero-optimized-1200.png"
-                                class="herostyles__Video-loka6f-8 jIAGzT" loop>
-                                <source src="//videos.ctfassets.net/4cd45et68cgf/ihQGzmRN3CX9KYPkzRJFt/6eea6cd4f60a23486879b2e109856c08/NETFLIX_3D_Streams_Pillars_001_5mb__2_.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                        <div class="herostyles__Copy-loka6f-3 cwQjJs">
-                            <h1 class="herostyles__Headline-loka6f-4 kPbWzb">
-                                <span>Stories move us.</span><span>They make us
-                                    feel more emotion, see new perspectives,<br> and bring us closer to each
-                                    other.</span>
-                            </h1>
-                        </div>
+            <main id="main-content">
+                <div class="herostyles__Wrapper">
+                    <div class="herostyles__MediaWrapper">
+                        <video autoplay="" muted="" loop="" playsinline=""
+                            poster="//images.ctfassets.net/4cd45et68cgf/7vHGD7Uco3vCrkcODgl93A/6d8c350a705f7b072d9060c16bd19240/ShowBox-home_hero-optimized-1200.png"
+                            class="herostyles__Video-loka6f-8 jIAGzT" loop>
+                            <source
+                                src="//videos.ctfassets.net/4cd45et68cgf/ihQGzmRN3CX9KYPkzRJFt/6eea6cd4f60a23486879b2e109856c08/NETFLIX_3D_Streams_Pillars_001_5mb__2_.mp4"
+                                type="video/mp4">
+                        </video>
                     </div>
-                </main>
-            </div>
+                    <div class="herostyles__Copy-loka6f-3 cwQjJs">
+                        <h1 class="herostyles__Headline-loka6f-4 kPbWzb">
+                            <span>Stories move us.</span><span>They make us
+                                feel more emotion, see new perspectives,<br> and bring us closer to each
+                                other.</span>
+                        </h1>
+                    </div>
+                </div>
+            </main>
+
         </div>
-        <p class="about-showbox">At ShowBox, we want to entertain the world. Whatever your taste, and no matter where
+        <!-- <p class="about-showbox">At ShowBox, we want to entertain the world. Whatever your taste, and no matter where
             you live, we give you access to best-in-class TV series, documentaries, feature films and mobile games. Our
             members control what they want to watch, when they want it, in one simple subscription. We’re streaming in
             more than 30 languages and 190 countries, because great stories can come from anywhere and be loved
             everywhere. We are the world’s biggest fans of entertainment, and we’re always looking to help you find your
-            next favorite story.</p>
+            next favorite story.</p> -->
+
+        <div class="about-mission-container">
+            <section>
+                <h2>Why you should visit ShowBox?</h2>
+                <p>Showbox's primary goal is to amuse its consumers by providing content that may be streamed on demand.
+                    Users may easily watch their preferred films and TV episodes, offering a flexible and individualized
+                    viewing experience.</p>
+            </section>
+
+            <section>
+                <h2>What problems ShowBox solved?</h2>
+                <ul>
+                    <li>Many traditional media sources may not offer a wide variety of content, leaving viewers craving
+                        more choices and diversity in their entertainment.</li>
+                    <li>Different countries or regions may have restricted access to certain content, leading to
+                        frustration for viewers who wish to explore global entertainment options.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>How ShowBox can help you?</h2>
+                <ul>
+                    <li>Watch your favorite content whenever and wherever you want. Our platform allows you to stream on
+                        your terms, eliminating the need to adhere to fixed schedules.</li>
+                    <li> Enjoy uninterrupted viewing with an ad-free subscription plan. Say farewell to pesky
+                        commercials that disrupt your immersion in the content.</li>
+                </ul>
+            </section>
+
+            <!-- Add more sections as needed -->
+
+        </div>
         <div class="grWKUB">
             <div class="gUPITN">
                 <h2 class="bmymIw">Our Culture</h2>
@@ -95,7 +202,42 @@
                     aria-hidden="true">→</span></a></span>
     </section>
     <footer>
-        <div class="footer">
+        <div class="footer-master">
+            <div class="footer-tags">
+                <div class="footer-content">
+                    <ul>
+                        <li><a href="./aboutus.html">About</a></li>
+                        <li><a href="./privacypolicy.html">Privacy</a></li>
+                        <li><a href="./faq.html">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <ul>
+                        <li><a href="./contactus.html">Contact Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-content">
+                <ul>
+                    <li>About</li>
+                    <li>
+                        <p>ShowBox offers original, exclusive and premium stories. Everything you want to watch,
+                            anytime, anywhere
+                            and as much.</p>
+                    </li>
+                    <li>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="footer-disclaimer">
             <p>&copy; 2023 ShowBox, Inc. All rights reserved.</p>
         </div>
     </footer>
