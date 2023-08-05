@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -23,9 +24,11 @@ header {
 }
 
 .logo img {
-  /* width: 10rem; */
-  /* Adjust the width as needed */
+  width: 7.5rem;
   margin-left: 20%;
+}
+.logo a{
+  text-decoration: none;
 }
 
 .menu {
@@ -73,8 +76,8 @@ header {
 }
 
 .category h2 {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight:500;
   margin-bottom: 10px;
 }
 
@@ -655,8 +658,8 @@ button {
   position: absolute;
   top: 65%;
   color: white;
-  font-weight: 500;
-  font-size:20px;
+  font-weight: 400;
+  font-size:1rem;
 }
 .billboard-row .billboard .info .billboard-links>a {
   align-items: center;
@@ -722,12 +725,26 @@ a {
 {
     margin-left: 8px !important;
 }
+.hero {
+  background-image: url('../img/banner.jpg'); /* Replace with your hero background image */
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 5%;
+}
 
-
+.hero-content {
+  font-size: 1.5rem;
+  text-align: center;
+}
+  /* Styles for mobile devices go here */
 @media (max-width: 767px) {
   .top-10
   {
-    visibility: hidden;
+  visibility: hidden;
   height:0vh;
   }
   .category .top-10
@@ -741,17 +758,84 @@ a {
     visibility: hidden;
     padding:0;
   }
-  .homepage{
-    margin-top:15%;
+ 
+  .hero-content{
+font-size:3rem;
+    /* margin-top:30%; */
   }
   .logo-and-text{
     visibility: hidden;
     height:0;
   }
-  /* Styles for mobile devices go here */
+  .thumbnail
+  {
+    flex:0 0 10rem;
+  }
+  .button-container
+  {
+    visibility: hidden;
+    height: 0;
+  }
+  .tags-container
+  {
+    visibility: hidden;
+    height: 0;
+  }
+  .thumbnails
+  {
+    flex: 10rem;
+    overflow-y: clip;
+  }
+  .thumbnail img
+  {
+    height: 100%;
+  }
+  .hero-content
+  {
+    font-size: 1rem;
+  }
 }
 
 /* Media query for tablet devices */
 @media (min-width: 768px) and (max-width: 1024px) {
   /* Styles for tablet devices go here */
+  .video-section{
+    visibility: hidden;
+    padding:0;
+  }
+  .hero-content{
+    font-size:3rem;
+        /* margin-top:30%; */
+      }
+      .logo-and-text{
+        visibility: hidden;
+        height:0;
+      }
+      .thumbnail
+      {
+        flex:0 0 10rem;
+      }
+      .button-container
+      {
+        visibility: hidden;
+        height: 0;
+      }
+      .tags-container
+      {
+        visibility: hidden;
+        height: 0;
+      }
+      .thumbnails
+      {
+        flex: 10rem;
+        overflow-y: clip;
+      }
+      .thumbnail img
+      {
+        height: 100%;
+      }
+      .hero-content
+      {
+        font-size: 1rem;
+      }
 }

@@ -1,9 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #111;
     color: #fff;
+    font-family: Rubik,Arial,sans-serif;;
   }
   
   .contact-container {
@@ -46,8 +46,7 @@ body {
   }
   
  .contact-master-page h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 1.5rem;
     text-align: center;
     margin-bottom: 5%;
   }
@@ -61,7 +60,7 @@ body {
   .form-group textarea,
   .form-group button,
   .contact-details li {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border: 1px solid #666;
     border-radius: 4px;
@@ -72,26 +71,40 @@ body {
   {
 border:none !important; 
 background-color: transparent;
+font-size: 0.9rem;
   }
   
   .form-group textarea {
     resize: vertical;
   }
+  .form-group button
+  {
+    text-align: center;
+  }
   
   .form-group button {
-    background-color: #e50914;
+    background-color: #8c52ff;
     border: none;
     cursor: pointer;
+    width:50%;
+    margin:0 25%;
   }
   .contact-master-page{
     /* height: 100vh; */
     margin-top: 9%;
   }
   
-  .contact-details img {
+  .contact-details i{
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    color: #8c52ff;
+  }
+  .contact-details li
+  {
+    display: flex;
+    justify-content: start;
+    align-items: center;
   }
   
   @media (max-width: 768px) {
@@ -103,4 +116,23 @@ background-color: transparent;
     .right-column {
       flex: auto;
     }
+    .contact-master-page
+    {
+      margin-top: 30%;
+    }
+    .right-column
+    {
+      margin-left: 0;
+      margin-top:10%;
+      margin-bottom: 10%;
+    }
+    .right-column ul
+    {
+      padding:0;
+    }
   }
+
+  /* Media query for tablet devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablet devices go here */
+}

@@ -4,6 +4,7 @@
 body{
     margin:0;
     background-color: #141414;
+    font-family: Rubik,Arial,sans-serif;;
 }
 
 .eJRFED {
@@ -91,7 +92,7 @@ body{
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: -0.2px;
-    color: rgb(229, 9, 20);
+    color:#8c52ff;
     text-decoration: none;
     margin: 0px;
 }
@@ -153,7 +154,8 @@ a {
     text-decoration: none;
     font-family: var(--bold-font);
     font-weight: 700;
-    color: rgb(255, 0, 13);
+    color:#8c52ff;
+
 }
 .egQJkW {
     width: 100%;
@@ -176,7 +178,7 @@ a {
     align-items: center;
     -webkit-box-pack: center;
     justify-content: center;
-    background-image: url(https://about.Netflix.com/images/backgrounds/background-texture-s.jpg);
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/249/768/desktop-wallpaper-violet-stone-texture-creative-purple-background-violet-stone-background-grunge-texture-with-resolution-2880x1800-high-quality-purple-grunge.jpg);
     background-size: cover;
     background-position: center center;
     padding: 0px 42px;
@@ -201,9 +203,10 @@ a {
 .jkWBZ a {
     display: block;
     padding: 15px 20px;
-    background: rgb(229, 9, 20);
+    background: #8c52ff;
     color: rgb(255, 255, 255);
-    border: 2px solid rgb(229, 9, 20);
+    border: 2px solid   #8c52ff;
+    ;
 }
 
 
