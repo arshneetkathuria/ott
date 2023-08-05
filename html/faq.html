@@ -14,79 +14,103 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-          
-          <div class="logo">
-            <a href="./index.html">
-            <img src="../img/showboxlogo.png" >
-          </a>
-          </div>
-          <ul class="menu login-stretch">
-            <ul class="menu">
-              <li class="menu-list-item"><a href="./index.html">Home</a></li>
-              <li class="menu-list-item"><a href="#">TV Shows</a></li>
-              <li class="menu-list-item"><a href="#">Movies</a></li>
-              <li class="menu-list-item"><a href="#">My List</a></li>
-            </ul>
-            <ul>
-              <li>
-                <div class="search-box">
-                  <input class="search-input" type="text" name="" placeholder="Pesquise">
-                  <a href="#" class="search-btn">
-                    <i class="fas fa-search"></i>
-                  </a>     
-                </div>
-              </li>
-              <li>
-                <!-- <a href="#">Login</a> -->
-                <div class="user-icon">
-                  <div class="user-icon-circle">
-                    <i class="fa-solid fa-user"></i>
-                  </div>
-                  <div class="dropdown">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <div class="dropdown-sub-menu"><i class="fa-solid fa-pencil"></i>
-                            <p>Manage Profile</p>
-                          </div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <div class="dropdown-sub-menu"><i class="fa-regular fa-circle-question"></i>
-                            <p>Help Center</p>
-                          </div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <div class="dropdown-sub-menu"><i class="fa-sharp fa-solid fa-gear"></i>
-                            <p>Settings</p>
-                          </div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <div class="dropdown-sub-menu"><i class="fa-regular fa-user"></i>
-                            <p>Account</p>
-                          </div>
-                        </a>
-                      </li>
-                      <hr>
-                      <li>
-                        <p>Sign out</p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-            </ul>
-    
-          </ul>
-        </nav>
-      </header>
+  <header id="desktop-header">
+    <nav class="navbar">   
+      <div class="logo">
+        <a href="./index.html">
+        <img src="../img/showboxlogo.png" >
+      </a>
+      </div>
+      <ul class="menu login-stretch">
+        <ul class="menu">
+          <li class="menu-list-item"><a href="./index.html">Home</a></li>
+          <li class="menu-list-item"><a href="#">TV Shows</a></li>
+          <li class="menu-list-item"><a href="#">Movies</a></li>
+          <li class="menu-list-item"><a href="#">My List</a></li>
+        </ul>
+        <ul>
+          <li>
+            <div class="search-box">
+              <input class="search-input" type="text" name="" placeholder="Pesquise">
+              <a href="#" class="search-btn">
+                <i class="fas fa-search"></i>
+              </a>     
+            </div>
+          </li>
+          <li>
+            <!-- <a href="#">Login</a> -->
+            <div class="user-icon">
+              <div class="user-icon-circle">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="dropdown">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <div class="dropdown-sub-menu"><i class="fa-solid fa-pencil"></i>
+                        <p>Manage Profile</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="dropdown-sub-menu"><i class="fa-regular fa-circle-question"></i>
+                        <p>Help Center</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="dropdown-sub-menu"><i class="fa-sharp fa-solid fa-gear"></i>
+                        <p>Settings</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="dropdown-sub-menu"><i class="fa-regular fa-user"></i>
+                        <p>Account</p>
+                      </div>
+                    </a>
+                  </li>
+                  <hr>
+                  <li>
+                    <p>Sign out</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+      </ul>
+    </nav>
+  </header>
+  <header id="mobile-header">
+    <div class="hamburger-menu">
+      <div class="ham-logo-club">
+      <div>
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      <ul class="menu__box">
+        <li><a class="menu__item" href="./index.html">Home</a></li>
+        <li><a class="menu__item" href="#">TV Shows</a></li>
+        <li><a class="menu__item" href="#">Movies</a></li>
+        <li><a class="menu__item" href="#">My List</a></li>
+      </ul>
+    </div>
+      <div class="logo">
+        <a href="./index.html">
+        <img src="../img/showboxlogo.png" >
+      </a>
+      </div>
+    </div>
+     
+    </div>
+
+  </header>
     <main>
         <!-- <div class="contact-form">
             <form action="#" method="post">
