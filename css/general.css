@@ -185,7 +185,7 @@ footer {
 .social-icon i {
   color: #fff;
   /* Default icon color */
-  font-size: 20px;
+  width:15px;
 }
 
 /* Customize colors for social icons */
@@ -258,12 +258,20 @@ button {
   background: none;
   outline: none;
   float: left;
-  padding: 0;
   color: white;
   font-size: 20px;
   transition: 0.4s;
   line-height: 50px;
   width: 0;
+  font-family: Rubik,Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin-left:5px ;
+  margin-bottom: 5px;
+}
+.search-input::placeholder
+{
+  padding-bottom: 10px;
+  color:white;
 }
 
 .search-box:hover>.search-input {
